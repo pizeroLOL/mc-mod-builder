@@ -1,6 +1,7 @@
 name mod-build
 
-on: push
+on: 
+  push
 jobs:
   build:
   runs-on: ubuntu-22.04
