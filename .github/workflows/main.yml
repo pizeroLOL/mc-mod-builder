@@ -6,6 +6,5 @@ jobs:
     runs-on: ubuntu-lastest
     steps:
     - uses: actions/checkout@v2
-    - name: build
-      - run:
+    - run:
           sh ./start.sh
