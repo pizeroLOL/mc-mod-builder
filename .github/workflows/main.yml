@@ -7,7 +7,7 @@ jobs:
     steps:
     - uses: actions/checkout@v2
   build:
-    run-on: ubuntu-20.04
+    runs-on: ubuntu-20.04
     steps: 
     - run:
           sh ./start.sh
