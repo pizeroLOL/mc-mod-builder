@@ -1,5 +1,5 @@
 name: mod-build
-on
+on:
   push
 jobs
   build
