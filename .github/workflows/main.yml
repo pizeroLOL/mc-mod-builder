@@ -7,4 +7,3 @@ jobs:
     steps: 
     - run:
         sh ./start.sh
-    needs: clone
