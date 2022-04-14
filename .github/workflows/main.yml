@@ -10,5 +10,5 @@ jobs:
     runs-on: ubuntu-20.04
     steps: 
     - run:
-          sh ./mc-1.12.2-auto/start.sh
+          sh ./start.sh
     needs: clone
