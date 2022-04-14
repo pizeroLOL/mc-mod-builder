@@ -7,4 +7,4 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - run: 
-        ./start.sh
+        sh ./start.sh
