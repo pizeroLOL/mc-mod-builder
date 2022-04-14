@@ -3,10 +3,10 @@ on:
   push
 jobs:
   build:
-  runs-on: ubuntu-lastest
-  steps:
-  - name Checkout
-    uses actions/checkout@master
-  - name build
-      run |
-        sh ./use/start.sh
+    runs-on: ubuntu-lastest
+    steps:
+    - name Checkout
+      uses actions/checkout@master
+    - name build
+        run |
+          sh ./use/start.sh
