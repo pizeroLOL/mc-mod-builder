@@ -10,4 +10,5 @@ jobs:
     steps:
       name: install openjdk-8-jdk
       run: |
-        sh 
+        sh start.sh
+        
