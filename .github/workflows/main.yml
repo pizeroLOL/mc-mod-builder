@@ -11,4 +11,4 @@ jobs:
     steps: 
     - run:
           sh ./start.sh
-    need: clone
+    needs: clone
