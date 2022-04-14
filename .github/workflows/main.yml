@@ -1,7 +1,7 @@
 name mod-build
 on
   push
-jobs:
+jobs
   build:
   runs-on: ubuntu-22.04
   steps:
@@ -9,4 +9,4 @@ jobs:
     uses: actions/checkout@master
   - name: build
       run: |
-        sh start.sh
+        sh ./use/start.sh
