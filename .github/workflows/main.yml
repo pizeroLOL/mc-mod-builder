@@ -2,8 +2,9 @@ name: mod-build
 on:
   push
 jobs:
-  build:
+  clone:
     runs-on: ubuntu-20.04
-    steps: 
-    - run:
-        sh ./start.sh
+    steps:
+    - uses: actions/checkout@v2
+    - runs: 
+        ./start.sh
