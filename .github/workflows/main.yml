@@ -6,5 +6,5 @@ jobs:
     runs-on: ubuntu-20.04
     steps: 
     - run:
-          sh ./start.sh
+      sh ./start.sh
     needs: clone
