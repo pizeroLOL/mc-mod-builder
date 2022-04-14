@@ -3,7 +3,7 @@ on:
   push
 jobs:
   build:
-    runs-on: ubuntu-lastest
+    runs-on: ubuntu-20.04
     steps:
     - uses: actions/checkout@v2
     - run:
