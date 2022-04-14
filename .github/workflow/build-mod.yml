@@ -5,10 +5,8 @@ on:
       - master
 jobs:
   build:
-  - name: install openjdk-8-jdk
-    runs-on: ubuntu-22.04
-    steps:
-      name: install openjdk-8-jdk
+  runs-on: ubuntu-22.04
+  steps:
+  - name: build
       run: |
         sh start.sh
-        
