@@ -1,4 +1,4 @@
-name mod-build
+name: mod-build
 on
   push
 jobs
