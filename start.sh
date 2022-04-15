@@ -2,7 +2,7 @@
 sudo apt update -y
 sudo apt upgrade -y
 sudo apt install openjdk-8-jdk wget -y
-wget https://github.com/sinkillerj/ProjectE/archive/refs/heads/mc1.12.x.zip
-unzip mc1.12.x.zip
-cd ProjectE-mc1.12.x
-sh ./gradlew build
+wget https://github.com/GregTechCE/GregTech/archive/refs/heads/master.zip
+unzip master.x.zip
+cd GregTech-master
+sh ./gradlew build -Dfile.encoding=UTF-8 --info
