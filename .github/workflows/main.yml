@@ -13,4 +13,4 @@ jobs:
       if: always()
       with:
         name: output
-        path: ./GregTech-master/
+        path: ./mc1.12.x/
