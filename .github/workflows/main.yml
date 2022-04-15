@@ -13,4 +13,4 @@ jobs:
       if: always()
       with:
         name: output
-        path: ./PaiMonFood/build/libs/
+        path: ./opt/libs/
