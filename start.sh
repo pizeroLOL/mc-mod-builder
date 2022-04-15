@@ -2,5 +2,6 @@
 sudo apt update -y
 sudo apt upgrade -y
 sudo apt install openjdk-8-jdk wget -y
-wget <你的网址（记得吧<>删掉）>
-sh ./upload/gradlew build
+wget https://github.com/Blood-Asp/GT5-Unofficial/archive/refs/heads/unstable.zip
+unzip unstable.zip
+sh ./gradlew build
