@@ -7,7 +7,7 @@ jobs:
     env:
       DL_URL: https://github.com/Dabai1025/PaiMonFood/archive/refs/heads/main.zip
       Pack_Name: main
-      Open_Pack_Name: PaiMonFood
+      Open_Pack_Name: PaiMonFood-main
     steps:
     - uses: actions/checkout@v2
     - run: 
