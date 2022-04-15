@@ -1,0 +1,18 @@
+name: mod-build
+on:
+  push
+jobs:
+  build:
+    runs-on: ubuntu-20.04
+    steps:
+    - uses: actions/checkout@v2
+    - run: 
+        sh ./start.sh
+    - name: Upload a Build Artifact
+      uses: actions/upload-artifact@v3.0.0
+      with:
+    # Artifact name
+        name: output
+    # A file, directory or wildcard pattern that describes what to upload
+        path: ./GregTech-master/build/libs
+    # The desired behavior if no files are found using the provided path.
