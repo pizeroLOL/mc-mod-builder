@@ -1,18 +1,21 @@
+
 name: mod-build
 on:
   push
 jobs:
   build:
     runs-on: ubuntu-20.04
+    env:
+      DL_URL: <你包的下载地址>
+      Pack_Name: <你包的名字（通常以/*.zip结尾，*就是它的包名）>
+      Open_Pack_Name: <包解压缩后的文件夹，通常是项目名-分支名，也有直接是分支名的，建议两种试试或者自己下载看看>
     steps:
     - uses: actions/checkout@v2
     - run: 
         sh ./start.sh
-    - name: Upload a Build Artifact
-      uses: actions/upload-artifact@v3.0.0
+    - name : Upload packages
+      uses: actions/upload-artifact@master
+      if: always()
       with:
-    # Artifact name
         name: output
-    # A file, directory or wildcard pattern that describes what to upload
-        path: ./PaiMonFood/build/libs
-    # The desired behavior if no files are found using the provided path.
+        path: /opt/libs/
