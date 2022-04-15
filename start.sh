@@ -2,6 +2,6 @@
 sudo apt update -y
 sudo apt upgrade -y
 sudo apt install openjdk-8-jdk wget -y
-wget https://github.com/GregTechCEu/GregTech/archive/refs/heads/master.zip
-unzip master.zip
-sh ./GregTech-master/gradlew build
+wget https://github.com/sinkillerj/ProjectE/archive/refs/heads/mc1.12.x.zip
+unzip mc1.12.x.zip
+sh ./Applied-Energistics-2/gradlew build
