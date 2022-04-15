@@ -13,4 +13,4 @@ jobs:
       if: always()
       with:
         name: output
-        path: ./GregTech-master/build/Output/
+        path: ./GregTech-master/
