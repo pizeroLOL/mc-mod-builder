@@ -13,4 +13,4 @@ jobs:
       if: always()
       with:
         name: output
-        path: ./Applied-Energistics-2/build
+        path: ./ProjectE-mc1.12.x/build
