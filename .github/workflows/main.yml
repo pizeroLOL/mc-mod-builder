@@ -7,7 +7,7 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - run: |
-        chmod -x ./start.sh
+        chmod +x ./start.sh
         sh ./start.sh
     - name : Upload packages
       uses: actions/upload-artifact@master
