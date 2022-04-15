@@ -6,3 +6,4 @@ wget https://github.com/Dabai1025/PaiMonFood/archive/refs/heads/main.zip
 unzip main.zip
 cd PaiMonFood-main
 sh ./gradlew build -Dfile.encoding=UTF-8 --info
+cp -r build/libs /opt/libs
