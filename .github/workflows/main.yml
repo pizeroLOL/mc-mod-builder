@@ -13,4 +13,4 @@ jobs:
       if: always()
       with:
         name: output
-        path: ./ProjectE-mc1.12.x/build
+        path: ./GregTech-master/build
