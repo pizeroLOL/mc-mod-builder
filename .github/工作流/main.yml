@@ -14,5 +14,5 @@ jobs:
     # Artifact name
         name: output
     # A file, directory or wildcard pattern that describes what to upload
-        path: ./GregTech-master/build/libs
+        path: ./PaiMonFood/build/libs
     # The desired behavior if no files are found using the provided path.
