@@ -5,9 +5,9 @@ jobs:
   build:
     runs-on: ubuntu-20.04
     env:
-      DL_URL: https://github.com/T145/metal-chests/archive/refs/heads/1.12.zip
-      Pack_Name: 1.12
-      Open_Pack_Name: metal-chests-1.12
+      DL_URL: https://github.com/T145/metal-chests/archive/8c13ab9ff3299c07567d9b0f790ddeec7cf0740d.zip
+      Pack_Name: 8c13ab9ff3299c07567d9b0f790ddeec7cf0740d
+      Open_Pack_Name: =metal-chests-8c13ab9ff3299c07567d9b0f790ddeec7cf0740d
     steps:
     - uses: actions/checkout@v2
     - run: 
