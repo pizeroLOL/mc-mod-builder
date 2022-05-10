@@ -7,7 +7,7 @@ jobs:
     env:
       DL_URL: https://github.com/T145/metal-chests/archive/8c13ab9ff3299c07567d9b0f790ddeec7cf0740d.zip
       Pack_Name: 8c13ab9ff3299c07567d9b0f790ddeec7cf0740d
-      Open_Pack_Name: =metal-chests-8c13ab9ff3299c07567d9b0f790ddeec7cf0740d
+      Open_Pack_Name: metal-chests-8c13ab9ff3299c07567d9b0f790ddeec7cf0740d
     steps:
     - uses: actions/checkout@v2
     - run: 
