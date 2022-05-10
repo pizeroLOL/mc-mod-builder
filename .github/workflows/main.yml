@@ -5,9 +5,9 @@ jobs:
   build:
     runs-on: ubuntu-20.04
     env:
-      DL_URL: https://github.com/KELETU66666/UnifiedBuilds/archive/refs/heads/main.zip
-      Pack_Name: main
-      Open_Pack_Name: UnifiedBuilds-main
+      DL_URL: https://github.com/T145/metal-chests.git
+      Pack_Name: 1.12
+      Open_Pack_Name: metal-chests-1.12
     steps:
     - uses: actions/checkout@v2
     - run: 
