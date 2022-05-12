@@ -5,9 +5,9 @@ jobs:
   build:
     runs-on: ubuntu-20.04
     env:
-      DL_URL: https://github.com/T145/metal-chests/archive/8c13ab9ff3299c07567d9b0f790ddeec7cf0740d.zip
-      Pack_Name: 8c13ab9ff3299c07567d9b0f790ddeec7cf0740d
-      Open_Pack_Name: metal-chests-8c13ab9ff3299c07567d9b0f790ddeec7cf0740d
+      DL_URL: https://github.com/KELETU66666/ThaumTweaks/archive/refs/heads/dev-1.0.zip
+      Pack_Name: dev-1.0
+      Open_Pack_Name: ThaumTweaks-dev-1.0
     steps:
     - uses: actions/checkout@v2
     - run: 
