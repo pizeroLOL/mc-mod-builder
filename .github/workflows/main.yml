@@ -7,7 +7,7 @@ jobs:
     env:
       DL_URL: https://github.com/KELETU66666/OtherThaumcraft/archive/refs/heads/main.zip
       Pack_Name: main
-      Open_Pack_Name: OtherThaumcraft-mai
+      Open_Pack_Name: OtherThaumcraft-main
     steps:
     - uses: actions/checkout@v2
     - run: 
