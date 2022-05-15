@@ -5,9 +5,9 @@ jobs:
   build:
     runs-on: ubuntu-20.04
     env:
-      DL_URL: https://github.com/KELETU66666/OtherThaumcraft/archive/refs/heads/main.zip
-      Pack_Name: main
-      Open_Pack_Name: OtherThaumcraft-main
+      DL_URL: https://github.com/KELETU66666/OtherThaumcraft/archive/refs/heads/backport.zip
+      Pack_Name: backport
+      Open_Pack_Name: OtherThaumcraft-backport
     steps:
     - uses: actions/checkout@v2
     - run: 
