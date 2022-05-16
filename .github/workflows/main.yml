@@ -5,9 +5,9 @@ jobs:
   build:
     runs-on: ubuntu-20.04
     env:
-      DL_URL: https://github.com/KELETU66666/Hardcore-Ender-Expansion-2/archive/refs/heads/1.12-last.zip
-      Pack_Name: 1.12-last
-      Open_Pack_Name: Hardcore-Ender-Expansion-2-1.12-last
+      DL_URL: https://github.com/KELETU66666/Hardcore-Ender-Expansion-2/archive/refs/heads/wip.zip
+      Pack_Name: wip
+      Open_Pack_Name: Hardcore-Ender-Expansion-2-wip
     steps:
     - uses: actions/checkout@v2
     - run: 
