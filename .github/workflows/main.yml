@@ -1,3 +1,4 @@
+
 name: mod-build
 on:
   push
@@ -5,11 +6,29 @@ jobs:
   build:
     runs-on: ubuntu-20.04
     env:
-      DL_URL: https://github.com/MaxSaleh/ArcaneArteries/archive/refs/heads/master.zip
-      Pack_Name: master
-      Open_Pack_Name: ArcaneArteries-master
+      DL_URL: https://github.com/KELETU66666/Hardcore-Ender-Expansion-2/archive/refs/heads/wip.zip
+      Pack_Name: wip
+      Open_Pack_Name: Hardcore-Ender-Expansion-2-wip
     steps:
     - uses: actions/checkout@v2
+    - name: Setup Java JDK 11
+      uses: actions/setup-java@v3.3.0
+      with: 
+        java-version: '11'
+        distribution: 'temurin'
+        java-package: jdk
+    - name: Setup Java JDK 18
+      uses: actions/setup-java@v3.3.0
+      with: 
+        java-version: '18'
+        distribution: 'temurin'
+        java-package: jdk
+    - name: Setup Java JDK 8
+      uses: actions/setup-java@v3.3.0
+      with: 
+        java-version: '8'
+        distribution: 'temurin'
+        java-package: jdk
     - run: 
         sh ./start.sh
     - name : Upload packages
