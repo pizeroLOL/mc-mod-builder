@@ -1,7 +1,7 @@
 #!/bin/sh
 sudo apt update -y
 sudo apt upgrade -y
-sudo apt install openjdk-8-jdk openjdk-18-jdk wget -y
+sudo apt install openjdk-8-jdk openjdk-11-jdk openjdk-18-jdk wget -y
 wget $DL_URL
 unzip $Pack_Name.zip
 cd $Open_Pack_Name
