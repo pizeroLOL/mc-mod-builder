@@ -5,9 +5,9 @@ jobs:
   build:
     runs-on: ubuntu-20.04
     env:
-      DL_URL: https://github.com/GregTechCEu/gregicality-science/archive/refs/heads/master.zip
+      DL_URL: https://github.com/MaxSaleh/ArcaneArteries/archive/refs/heads/master.zip
       Pack_Name: master
-      Open_Pack_Name: gregicality-science-master
+      Open_Pack_Name: ArcaneArteries-master
     steps:
     - uses: actions/checkout@v2
     - run: 
