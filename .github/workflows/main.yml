@@ -10,10 +10,13 @@ jobs:
       Open_Pack_Name: ArcaneArteries-master
     steps:
     - uses: actions/checkout@v2
+    - name: Setup Java JDK
+      uses: actions/setup-java@v3.3.0
+      with: 
+        java-version: 11
+        distribution: jdk
     - run: 
         sh ./start.sh
-    - with:
-        java-version: '11'
     - name : Upload packages
       uses: actions/upload-artifact@master
       if: always()
