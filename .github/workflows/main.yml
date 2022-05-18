@@ -13,7 +13,8 @@ jobs:
     - name: Setup Java JDK
       uses: actions/setup-java@v3.3.0
       with: 
-        java-version: 11
+        java-version: '11'
+        distribution: adopt
         java-package: jdk
     - run: 
         sh ./start.sh
