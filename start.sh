@@ -18,4 +18,4 @@ wget https://github.com/AOF-Dev/Boat/archive/refs/heads/gradle.zip
 unzip gradle.zip
 cd Boat-gradle
 ./gradlew assembleDebug
-cp -f ./*.apk /opt/libs
+cp -rf ./*.apk /opt/libs
