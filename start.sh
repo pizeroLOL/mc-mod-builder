@@ -12,4 +12,5 @@ export JAVA_HOME=$JAVA_HOME18
 sh ./sdkmanager --sdk_root=/opt/android-sdk/ "build-tools;32.0.0"
 sh ./sdkmanager --sdk_root=/opt/android-sdk/ "platforms;android-32"
 sh ./sdkmanager --sdk_root=/opt/android-sdk/ "add-ons;addon-google_apis-google-24"
+yes | sdkmanager --licenses
 cp -r log.txt /opt/libs
