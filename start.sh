@@ -19,4 +19,4 @@ unzip gradle.zip
 cd Boat-gradle
 ./gradlew assembleDebug
 mkdir /opt/libs
-find . -name *.apk -o -name *.apkx -o -name *.apks | xargs cp -t {} /opt/libs/;
+find . -name *.apk -o -name *.apkx -o -name *.apks | xargs cp -t /opt/libs/;
