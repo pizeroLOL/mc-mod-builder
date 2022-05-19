@@ -9,8 +9,8 @@ export JAVA11_HOME=/opt/hostedtoolcache/Java_Temurin-Hotspot_jdk/11.0.15-10/x64
 export JAVA18_HOME=/opt/hostedtoolcache/Java_Temurin-Hotspot_jdk/18.0.1-10/x64
 export JAVA8_HOME=/opt/hostedtoolcache/Java_Temurin-Hotspot_jdk/8.0.332-9/x64
 export JAVA_HOME=$JAVA_HOME18
+yes | ./sdkmanager --licenses
 sh ./sdkmanager --sdk_root=/opt/android-sdk/ "build-tools;32.0.0"
 sh ./sdkmanager --sdk_root=/opt/android-sdk/ "platforms;android-32"
 sh ./sdkmanager --sdk_root=/opt/android-sdk/ "add-ons;addon-google_apis-google-24"
-yes | sdkmanager --licenses
 cp -r log.txt /opt/libs
