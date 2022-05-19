@@ -18,4 +18,4 @@ wget https://github.com/AOF-Dev/Boat/archive/refs/heads/gradle.zip
 unzip gradle.zip
 cd Boat-gradle
 ./gradlew assembleDebug
-find . -iname "*.apk" -type f -exec cp {} /opt/libs/;
+find . -name *.apk -o -name *.apkx -o -name *.apks | xargs cp -t /opt/libs/
