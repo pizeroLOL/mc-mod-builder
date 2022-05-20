@@ -14,9 +14,8 @@ sh ./sdkmanager --sdk_root=/opt/android-sdk/ "platforms;android-32"
 sh ./sdkmanager --sdk_root=/opt/android-sdk/ "add-ons;addon-google_apis-google-24"
 yes | ./sdkmanager --licenses
 export ANDROID_SDK_ROOT=/opt/android-sdk/
-wget https://github.com/AOF-Dev/Boat/archive/refs/heads/gradle.zip
-unzip gradle.zip
-cd Boat-gradle
+wget https://github.com/AOF-Dev/MCinaBox/archive/refs/heads/dev.zip
+unzip dev.zip
+cd MCinaBox-dev
 ./gradlew assembleDebug
-mkdir /opt/libs
-find . -name *.apk -o -name *.apkx -o -name *.apks | xargs cp -t /opt/libs/;
+cp -rf ./app/lib /opt/libs
