@@ -27,12 +27,13 @@ jobs:
       with: 
         java-version: '8'
         distribution: 'temurin'
-        java-package: jdk
-    - run: 
-        sh ./start.sh
+        java-package: jdk 
+    - name: build
+      run: |
+        sh ./gradlew build --refresh-dependencies -Dfile.encoding=UTF-8 --info
+        cp -rf ./build/libs /opt/build
     - name : Upload packages
-      uses: actions/upload-artifact@master
-      if: always()
+      uses: actions/upload-artifact@v3
       with:
         name: output
         path: /opt/libs/
