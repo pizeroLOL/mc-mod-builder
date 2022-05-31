@@ -1,3 +1,4 @@
+
 name: mod-build
 on:
   push
@@ -5,9 +6,9 @@ jobs:
   build:
     runs-on: ubuntu-20.04
     env:
-      DL_URL: <下载地址>
-      Pack_Name: <包名称（下载地址后面的*.zip中的*）>
-      Open_Pack_Name: <解压缩后的文件夹名称（通常是<项目名>-<分支名>，强烈建议自己下下来试试看再填>
+      DL_URL: https://github.com/Thaumic-Tinkerer/ThaumicTinkerer/archive/refs/heads/dev.zip
+      Pack_Name: dev
+      Open_Pack_Name: /ThaumicTinkerer-dev
     steps:
     - uses: actions/checkout@v2
     - name: Setup Java JDK 11
