@@ -6,9 +6,9 @@ jobs:
   build:
     runs-on: ubuntu-20.04
     env:
-      DL_URL: https://github.com/Thaumic-Tinkerer/ThaumicTinkerer/archive/refs/heads/dev.zip
-      Pack_Name: dev
-      Open_Pack_Name: ThaumicTinkerer-dev
+      DL_URL: https://github.com/KELETU66666/Industrial-Magic---Crossover/archive/refs/heads/master.zip
+      Pack_Name: master
+      Open_Pack_Name: Industrial-Magic---Crossover-master
     steps:
     - uses: actions/checkout@v2
     - name: Setup Java JDK 11
