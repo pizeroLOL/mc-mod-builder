@@ -11,18 +11,6 @@ jobs:
       Open_Pack_Name: Industrial-Magic---Crossover-master
     steps:
     - uses: actions/checkout@v2
-    - name: Setup Java JDK 11
-      uses: actions/setup-java@v3.3.0
-      with: 
-        java-version: '11'
-        distribution: 'temurin'
-        java-package: jdk
-    - name: Setup Java JDK 18
-      uses: actions/setup-java@v3.3.0
-      with: 
-        java-version: '18'
-        distribution: 'temurin'
-        java-package: jdk
     - name: Setup Java JDK 8
       uses: actions/setup-java@v3.3.0
       with: 
