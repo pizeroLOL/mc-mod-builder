@@ -16,6 +16,7 @@ jobs:
     - run: |
         wget https://github.com/T145/all-the-creepers/archive/refs/heads/master.zip
         unzip master.zip
+        rm -r .git
         cd all-the-creepers-master
         wget https://services.gradle.org/distributions/gradle-5.3-bin.zip
         unzip gradle-5.3-bin.zip
