@@ -19,7 +19,7 @@ jobs:
         cd all-the-creepers-master
         wget https://services.gradle.org/distributions/gradle-7.5.1-bin.zip 
         unzip gradle-7.5.1-bin.zip
-        ./gradle-7.5.1-bin/bin/gradle build
+        ./gradle-7.5.1/bin/gradle build
         cp ./release/* /opt/libs/
         
     - name : Upload packages
