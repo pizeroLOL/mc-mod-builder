@@ -15,7 +15,7 @@ jobs:
         java-package: jdk
     - run: |
         wget https://github.com/T145/all-the-creepers/archive/refs/heads/master.zip
-        unzip all-the-creepers-master
+        unzip master.zip
         cd all-the-creepers-master
         wget https://services.gradle.org/distributions/gradle-7.5.1-bin.zip 
         unzip gradle-7.5.1-bin.zip
